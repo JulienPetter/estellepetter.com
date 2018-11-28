@@ -1,0 +1,44 @@
+body {
+    background: rgb(255,255,255);
+    margin: 0;
+}
+
+footer {
+    background: rgb(157,199,192);
+}
+
+p {
+    margin: 0;
+}
+
+
+.sand-bkgd {
+    background: rgb(240,238,228);
+}
+
+.container {
+    width: auto;
+    margin: 0;
+}
+
+.hero {
+    min-height: 400px;
+}
+
+
+#hero-index {
+    background: url("../img/index-bkgd.jpg") top no-repeat;
+    background-size: cover;
+}
+
+
+@media (min-width: 1200px) {
+    .hero {
+        min-height: 800px;
+    }
+    
+    .container {
+        width: 70%;
+        margin: auto;
+    }
+}
