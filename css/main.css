@@ -77,8 +77,8 @@ strong {
 }
 
 .hero ul {
-    width: 50%;
-    margin: auto;
+    width: auto;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -183,6 +183,12 @@ strong {
     width: 50%;
 }
 
+@media (min-width: 768px) {
+    .hero ul {
+        width: 50%;
+        margin: auto;
+    }
+}
 
 @media (min-width: 1200px) {
     footer {
