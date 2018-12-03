@@ -1,9 +1,14 @@
+/*** Fonts ***/
+
+/* Merriweather */
+
 @font-face {
     font-family: "Merriweather";
     src: url("../fonts/merriweather-regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Merriweather";
     src: url("../fonts/merriweather-bold.woff") format("woff");
@@ -11,12 +16,15 @@
     font-style: normal;
 }
 
+/* Lato */
+
 @font-face {
     font-family: "Lato";
     src: url("../fonts/lato-regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Lato";
     src: url("../fonts/lato-bold.woff") format("woff");
@@ -24,10 +32,12 @@
     font-style: normal;
 }
 
+/*** Tags ***/
 
 html {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+    /* Prevents browsers from rendering fonts too bold */
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -60,6 +70,7 @@ strong {
     font-weight: bold;
 }
 
+/*** Classes ***/
 
 .sand-bkgd {
     background: rgb(240,238,228);
@@ -70,13 +81,15 @@ strong {
     margin: 0;
 }
 
-.hero {
+/* Hero section */
+
+.hero-section {
     min-height: 400px;
     color: rgb(255,255,255);
     font-family: Merriweather, serif;
 }
 
-.hero ul {
+.hero-section ul {
     width: auto;
     margin: 0;
     display: flex;
@@ -88,28 +101,28 @@ strong {
     color: rgb(166,234,224);
 }
 
-.hero ul a {
+.hero-section ul a {
     color: rgb(255,255,255);
     text-decoration: none;
     transition: color 200ms linear;
 }
 
-.hero ul a:hover {
+.hero-section ul a:hover {
     color: rgb(166,234,224);
 }
 
-.hero h1 {
+.hero-section h1 {
     margin: 50px 0 0 0;
     font-size: 2em;
     font-weight: bold;
 }
 
-.hero h1 + p {
+.hero-section h1 + p {
     font-size: 1em;
     line-height: 1.5em;
 }
 
-.hero #frame {
+.hero-section #frame {
     background: rgb(140,199,189);
     width: 170px;
     height: 35px;
@@ -123,6 +136,8 @@ strong {
     font-weight: bold;
 }
 
+/* Standard section */
+
 .standard-section {
     padding: 30px 30px 30px 30px;
     font-size: 1em;
@@ -133,11 +148,14 @@ strong {
     margin-bottom: 25px;
 }
 
+/*** Identifiers ***/
 
 #hero-index {
     background: url("../img/index-bkgd.jpg") top no-repeat;
     background-size: cover;
 }
+
+/* Office photos */
 
 #office-photos {
     display: flex;
@@ -156,68 +174,77 @@ strong {
     width: 100%;
 }
 
-#infos {
+/* Office infos */
+
+#office-infos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-#infos div {
+#office-infos div {
     width: 240px;
     text-align: left;
 }
 
-#infos h2 {
+#office-infos h2 {
     margin-top: 0;
     font-size: 1.3em;
 }
 
-#infos table {
+#office-infos table {
     width: 70%;
     margin-bottom: 20px;
     border-collapse: collapse;
 }
 
-#infos td {
+#office-infos td {
     width: 50%;
 }
 
+/*** Media Queries ***/
+
 @media (min-width: 768px) {
-    .hero ul {
+    .hero-section ul {
         width: 50%;
         margin: auto;
     }
 }
 
 @media (min-width: 1200px) {
+    
+    /* Tags */
+    
     footer {
         font-size: 1.1em;
     }
+    
+    /* Classes */
     
     .container {
         width: 80%;
         margin: auto;
     }
     
-    .hero {
+    .hero-section {
         min-height: 800px;
     }
     
-    .hero ul {
+    .hero-section ul {
         font-size: 1.4em;
     }
     
-    .hero h1 {
+    .hero-section h1 {
         margin-top: 150px;
         font-size: 4.2em;
     }
     
-    .hero h1 + p {
+    .hero-section h1 + p {
         font-size: 1.9em;
     }
     
-    .hero #frame {
+    .hero-section #frame {
         margin-top: 135px;
         width: 340px;
         height: 70px;
@@ -230,17 +257,19 @@ strong {
         font-size: 1.3em;
     }
     
+    /* Identifiers */
+    
     #office-photos div {
         width: 320px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
     
-    #infos div {
+    #office-infos div {
         width: 365px;
     }
     
-    #infos h2 {
+    #office-infos h2 {
         margin-top: 25px;
         font-size: 1.5em;
     }
