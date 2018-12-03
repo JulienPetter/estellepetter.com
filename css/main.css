@@ -184,6 +184,11 @@ strong {
     background-size: cover;
 }
 
+#hero-infos {
+    background: url("../img/infos-bkgd.jpg") top no-repeat rgb(160,160,160);
+    background-size: cover;
+}
+
 /* Office photos */
 
 #office-photos {
