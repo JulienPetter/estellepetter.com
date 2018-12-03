@@ -84,6 +84,7 @@ strong {
 /* Hero section */
 
 .hero-section {
+    background-color: rgb(160,160,160);
     min-height: 400px;
     color: rgb(255,255,255);
     font-family: Merriweather, serif;
