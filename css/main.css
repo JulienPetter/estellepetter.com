@@ -179,6 +179,11 @@ strong {
     background-size: cover;
 }
 
+#hero-emdr {
+    background: url("../img/emdr-bkgd.jpg") top no-repeat rgb(160,160,160);
+    background-size: cover;
+}
+
 /* Office photos */
 
 #office-photos {
