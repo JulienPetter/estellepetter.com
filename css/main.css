@@ -98,10 +98,15 @@ strong {
 /* Hero section */
 
 .hero-section {
-    min-height: 300px;
+    min-height: 350px;
     color: rgb(255,255,255);
     font-family: Merriweather, serif;
     text-align: center;
+}
+
+.hero-section nav {
+    margin-bottom: 50px;
+    padding-top: 30px;
 }
 
 .hero-section ul {
@@ -109,7 +114,6 @@ strong {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 30px;
     list-style-type: none;
     font-size: 1em;
     color: rgb(166,234,224);
@@ -126,11 +130,11 @@ strong {
 }
 
 .hero-section h1 {
-    margin: 50px 0 0 0;
+    margin: 0;
     font-size: 2em;
 }
 
-.hero-section h1 + p {
+.hero-section p {
     font-size: 1em;
     line-height: 1.5em;
 }
@@ -268,16 +272,19 @@ strong {
         min-height: 600px;
     }
     
+    .hero-section nav {
+        margin-bottom: 150px;
+    }
+    
     .hero-section ul {
         font-size: 1.4em;
     }
     
     .hero-section h1 {
-        margin-top: 150px;
         font-size: 4.2em;
     }
     
-    .hero-section h1 + p {
+    .hero-section p {
         font-size: 1.9em;
     }
     
@@ -286,7 +293,7 @@ strong {
         width: 340px;
         height: 70px;
         border-radius: 35px;
-        font-size: 2.2em;
+        font-size: 1.2em;
     }
     
     .standard-section {
