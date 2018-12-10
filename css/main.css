@@ -95,6 +95,14 @@ strong {
     margin: 0;
 }
 
+.diagram {
+    text-align: center;
+}
+
+.diagram img {
+    width: 100%;
+}
+
 /* Hero section */
 
 .hero-section {
@@ -264,6 +272,11 @@ strong {
     .hero-section ul {
         width: 50%;
         margin: auto;
+    }
+    
+    .diagram img {
+        width: auto;
+        max-width: 75%;
     }
 }
 
