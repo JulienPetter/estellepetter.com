@@ -103,14 +103,14 @@ strong {
 /* Hero section */
 
 .hero-section {
-    min-height: 350px;
+    min-height: 450px;
     color: rgb(255,255,255);
     font-family: Merriweather, serif;
     text-align: center;
 }
 
 .hero-section nav {
-    margin-bottom: 50px;
+    margin-bottom: 110px;
     padding-top: 30px;
 }
 
@@ -148,7 +148,7 @@ strong {
     background: rgb(140,199,189);
     width: 170px;
     height: 35px;
-    margin: 60px auto 0 auto;
+    margin: 80px auto 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,7 +213,11 @@ strong {
 #hero-index {
     background: url("../img/index-bkgd.jpg") top no-repeat rgb(160,160,160);
     background-size: cover;
-    min-height: 400px;
+    min-height: 500px;
+}
+
+#hero-index nav {
+    margin-bottom: 90px;
 }
 
 #hero-tcc {
@@ -282,14 +286,27 @@ strong {
 /*** Media Queries ***/
 
 @media (min-width: 768px) {
+    
+    .hero-section nav {
+        margin-bottom: 130px;
+    }
+    
     .hero-section ul {
         width: 50%;
         margin: auto;
     }
     
+    .hero-section #frame {
+        margin-top: 100px;
+    }
+    
     .diagram img {
         width: auto;
         max-width: 75%;
+    }
+    
+    #hero-index nav {
+        margin-bottom: 100px;
     }
 }
 
@@ -313,11 +330,11 @@ strong {
     }
     
     .hero-section {
-        min-height: 600px;
+        min-height: 700px;
     }
     
     .hero-section nav {
-        margin-bottom: 150px;
+        margin-bottom: 180px;
     }
     
     .hero-section ul {
@@ -333,7 +350,7 @@ strong {
     }
     
     .hero-section #frame {
-        margin-top: 135px;
+        margin-top: 150px;
         width: 340px;
         height: 70px;
         border-radius: 35px;
@@ -353,6 +370,10 @@ strong {
     
     #hero-index {
         min-height: 800px;
+    }
+    
+    #hero-index nav {
+        margin-bottom: 150px;
     }
     
     #office-photos {
