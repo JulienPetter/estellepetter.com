@@ -95,14 +95,6 @@ strong {
     margin: 0;
 }
 
-.diagram {
-    text-align: center;
-}
-
-.diagram img {
-    width: 100%;
-}
-
 /* Hero section */
 
 .hero-section {
@@ -194,6 +186,21 @@ strong {
 
 .standard-section a:hover {
     text-decoration: underline;
+}
+
+/* Diagram */
+
+.diagram {
+    text-align: center;
+}
+
+.diagram img {
+    width: 100%;
+}
+
+.diagram h2 {
+    color: rgb(85,85,85);
+    text-align: center;
 }
 
 /*** Identifiers ***/
