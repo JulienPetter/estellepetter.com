@@ -401,3 +401,12 @@ strong {
         max-width: none;
     }
 }
+
+@media (min-width: 1920px) {
+    
+    .container {
+        width: 1536px;
+        margin: auto;
+    }
+    
+}
