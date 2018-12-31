@@ -121,13 +121,16 @@ strong {
     justify-content: space-around;
     list-style-type: none;
     font-size: 1em;
-    color: rgb(166,234,224);
 }
 
 .hero-section ul a {
     color: rgb(255,255,255);
     text-decoration: none;
     transition: color 200ms linear;
+}
+
+.hero-section ul a.current {
+    color: rgb(166,234,224);
 }
 
 .hero-section ul a:hover {
