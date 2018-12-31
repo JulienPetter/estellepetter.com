@@ -235,6 +235,13 @@ strong {
     background-size: cover;
 }
 
+#map {
+    height: 250px;
+    width: 100%;
+    max-width: 370px;
+    margin-bottom: 25px;
+}
+
 /* Office photos */
 
 #office-photos {
@@ -386,5 +393,11 @@ strong {
     
     #office-infos div {
         width: 365px;
+    }
+    
+    #map {
+        height: 500px;
+        width: 740px;
+        max-width: none;
     }
 }
